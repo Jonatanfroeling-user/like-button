@@ -1,0 +1,17 @@
+
+
+
+
+<form action="{{ route_store }}" method="POST" title="like_form">
+    {{ csrf_field }}
+    <!-- turn this into meta tag-->
+    <input type="hidden" name="entry_id" value="{{ id }}">
+
+    <!-- classes css not working -->
+    <button data-id="{{ id }}" class="btn_like {{ class }} rounded-lg px-5 py-3" style='border-radius:0.8rem;border:1px solid gray;'>
+        👍 <span class="like-content">{{ likes }}</span>
+    </button>
+</form>
+
+
+{{ like:scripts }}

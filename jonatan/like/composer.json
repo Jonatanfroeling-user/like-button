@@ -1,0 +1,22 @@
+{
+    "name": "jonatan/like",
+    "autoload": {
+        "psr-4": {
+            "Jonatan\\Like\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Like",
+            "description": "Like addon"
+        },
+        "laravel": {
+            "providers": [
+                "Jonatan\\Like\\ServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "jonassiewertsen/statamic-external-link": "^1.6"
+    }
+}

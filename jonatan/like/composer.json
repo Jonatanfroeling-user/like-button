@@ -15,8 +15,6 @@
                 "Jonatan\\Like\\ServiceProvider"
             ]
         }
-    },
-    "require": {
-        "jonassiewertsen/statamic-external-link": "^1.6"
     }
 }
+

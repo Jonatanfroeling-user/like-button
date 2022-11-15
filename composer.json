@@ -1,0 +1,16 @@
+
+{
+    "name": "jonatan/like-button",
+    "description": "A statamic like button",
+    "keywords": ["laravel", "statamic", "like"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonatan Verstraete",
+            "email": "jonafroe@student.arteveldehs.be"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    }
+}

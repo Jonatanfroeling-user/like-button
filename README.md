@@ -4,7 +4,6 @@ A simple like button in statamic.
 Works with Https request insteqd of a form submission.
 
 
-
 ## Install
 !! installation currently under development  !!
 
